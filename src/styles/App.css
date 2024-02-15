@@ -5,7 +5,6 @@ body {
 }
 
 .body-container {
-  max-width: 1750px;
   margin-inline: auto;
 }
 
@@ -53,6 +52,8 @@ body {
 .nav-link-text {
   color: #000;
   font-size: 18px;
+  line-height: 21px;
+  font-weight: 400px;
 }
 
 .home-body {
@@ -64,10 +65,11 @@ body {
 .home-heading {
   font-size: 56px;
   font-weight: 500;
+  line-height: 66px;
 }
 
 .home-col-2 {
-  padding-top: 116px;
+  padding-top: 170px;
   padding-left: 100px !important;
 }
 
@@ -76,7 +78,8 @@ body {
   line-height: 21px;
   max-width: 500px;
   padding-left: 5px;
-  padding-top: 10px;
+  padding-top: 25px;
+  color: #2c2c2c;
 }
 
 .home-rigth-foot {
@@ -137,14 +140,23 @@ body {
   background-color: #a9a9a9;
   border-radius: 4px;
 }
-
+.about-read {
+  text-decoration: none;
+  color: #2c2c2c;
+}
 .about-paragraph {
   padding-top: 40px;
+  line-height: 26.55px;
+  font-size: 18px;
+  color: #2c2c2c;
 }
 .about-Engagement-container,
 .about-Communications-container {
   max-width: 275px;
   padding-top: 20px;
+  line-height: 26.55px;
+  font-size: 18px;
+  color: #2c2c2c;
 }
 
 .Communications-body-main,
@@ -178,6 +190,7 @@ body {
   font-size: 18px;
   color: #2c2c2c;
   padding-top: 20px;
+  line-height: 23.6px;
 }
 
 .services-body {
@@ -301,6 +314,7 @@ body {
   font-size: 16px;
   padding-top: 20px;
   max-width: 523px;
+  line-height: 23.6px;
 }
 .Services-Engagement-img-container,
 .Services-Facilitation-img-container,
@@ -405,26 +419,36 @@ body {
   padding-bottom: 20px;
 }
 
-.footer-copy p {
+.footer-links-para {
   font-size: 14px;
+  line-height: 30.94px;
   color: #2c2c2c;
+}
+
+.explore-footer-para {
+  font-size: 14px;
+  line-height: 30.94px;
+  color: #2c2c2c;
+  margin: 0px;
+  padding-top: 7px;
 }
 
 .footer-body {
   background-color: #bfdbff;
-  padding: 50px 100px 50px 100px;
+  padding: 20px 70px 20px 70px;
 }
 
 .footer-body-heading {
   font-size: 16px;
   font-weight: 700;
+  margin: 0px;
 }
 
 .footer-company {
   display: flex;
   align-items: center;
   gap: 20px;
-  padding: 10px 0px;
+  padding: 3px 0px;
   text-decoration: none;
   color: #2c2c2c;
   cursor: pointer;
@@ -439,11 +463,21 @@ body {
   margin: 0px;
 }
 .footer-expore {
-  padding-top: 14px;
+  padding-top: 0px;
 }
 .contact-para {
-  padding-top: 10px;
+  padding-top: 14px;
+  margin: 0px;
+  font-size: 14px;
 }
 .footer-social {
   padding-left: 38px;
+  line-height: 30.94px;
+  color: #2c2c2c;
+}
+.footer-email {
+  font-size: 14px;
+  line-height: 30.94px;
+  color: #2c2c2c;
+  padding-top: 7px;
 }

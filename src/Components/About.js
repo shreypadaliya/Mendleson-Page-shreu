@@ -31,9 +31,9 @@ const About = () => {
                 <div className="about-Engagement-container">
                   <img
                     className="about-Engagement-img"
-                    src={require("../Assets/imgs/bodyImg/coomunication icon 1.png")}
+                    src={require("../Assets/imgs/bodyImg/Enagagement icon 1.png")}
                   />
-                  <h1 className="about-Engagement-heading">Engagement</h1>
+                  <h1 className="about-Engagement-heading">ENGAGEMENT</h1>
                   <p className="about-Engagement-paragraph">
                     We are engagement specialists, who have led projects at all
                     levels of the IAP2 spectrum. <br />
@@ -43,14 +43,14 @@ const About = () => {
                 <div className="about-Communications-container">
                   <img
                     className="about-Communications-img"
-                    src={require("../Assets/imgs/bodyImg/Enagagement icon 1.png")}
+                    src={require("../Assets/imgs/bodyImg/coomunication icon 1.png")}
                   />
                   <h1 className="about-Communications-heading">
-                    Communications
+                    COMMUNICATIONS
                   </h1>
                   <p className="about-Communications-paragraph">
                     We are award-winning leaders in communications and campaign
-                    management. <br />
+                    management.
                     <a className="about-read">READ MORE</a>
                   </p>
                 </div>

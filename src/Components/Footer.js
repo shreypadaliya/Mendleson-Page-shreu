@@ -7,7 +7,7 @@ const Footer = () => {
       <Container>
         <div className="footer-body">
           <Row className="footer-body-links">
-            <Col lg="2">
+            <Col lg="3">
               <div>
                 <p className="footer-body-heading footer-social">Social</p>
                 <a className="footer-company">
@@ -30,35 +30,32 @@ const Footer = () => {
                 </a>
               </div>
             </Col>
-            <Col lg="2">
+            <Col lg="3">
               {" "}
               <div>
                 <p className="footer-body-heading">Explore</p>
                 <div className="footer-expore">
                   <a className="footer-explore">
-                    <p>Services</p>
+                    <p className="explore-footer-para">Services</p>
                   </a>
                   <a className="footer-explore">
-                    <p>Team</p>
+                    <p className="explore-footer-para">Team</p>
                   </a>
                   <a className="footer-explore">
-                    <p>Clients</p>
+                    <p className="explore-footer-para">Clients</p>
                   </a>
                 </div>
               </div>
             </Col>
-            <Col lg="4">
+            <Col lg="3">
               <div>
                 <p className="footer-body-heading">Contact</p>
-                <p className="contact-para">
-                  Lorem Ipsum dummy address <br />
-                  used for display
-                  <br />
-                  1234567890
-                </p>
+                <p className="contact-para">Lorem Ipsum dummy address </p>
+                <p className="contact-para">used for display</p>
+                <p className="contact-para">1234567890</p>
               </div>
             </Col>
-            <Col lg="4">
+            <Col lg="3">
               <div>
                 <p className="footer-body-heading">Email</p>
                 <p className="footer-email">mendlesoncommunication@email.com</p>
