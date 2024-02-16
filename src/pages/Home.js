@@ -10,15 +10,15 @@ const Home = () => {
           <Col md="12" lg="6">
             <img
               className="home-left-foot"
-              src={require("../Assets/imgs/bg img/Assets 3.png")}
+              src={require("../imgs/bg img/Assets 3.png")}
             />
             <img
               className="home-bg-cloud"
-              src={require("../Assets/imgs/bg img/Graphic 1 2.png")}
+              src={require("../imgs/bg img/Graphic 1 2.png")}
             />
             <img
               className="home-vector"
-              src={require("../Assets/imgs/bg img/Vector Smart Object21 1 (1).png")}
+              src={require("../imgs/bg img/Vector Smart Object21 1 (1).png")}
             />
           </Col>
           <Col className="home-col-2" xs md="12" lg="6">
@@ -37,7 +37,7 @@ const Home = () => {
             </div>
             <img
               className="home-rigth-foot"
-              src={require("../Assets/imgs/bodyImg/Assets 4.png")}
+              src={require("../imgs/bodyImg/Assets 4.png")}
             />
           </Col>
         </Row>

@@ -1,0 +1,934 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body-container {
+  margin-inline: auto;
+}
+
+.nav-logo-perent {
+  width: 295px !important;
+}
+
+.nav-logo {
+  width: 295px;
+  height: 85px;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.rubik-regular {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.nav-bar {
+  background-color: #fff;
+}
+
+.left-top-nav {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.rigth-top-nav {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.nav-container {
+  max-width: 1600px !important;
+  padding-right: 16px !important;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-links {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.nav-link-text {
+  color: #000;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400px;
+}
+
+.home-body {
+  position: relative;
+  height: 790px;
+  width: 100%;
+}
+
+.home-heading {
+  font-size: 56px;
+  font-weight: 500;
+  line-height: 66px;
+}
+
+.home-col-2 {
+  padding-top: 170px;
+  padding-left: 100px !important;
+}
+
+.home-peragraph {
+  font-size: 18px;
+  line-height: 21px;
+  max-width: 500px;
+  padding-left: 5px;
+  padding-top: 25px;
+  color: #2c2c2c;
+}
+
+.home-rigth-foot {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.home-left-foot {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.home-vector {
+  position: absolute;
+  bottom: 0;
+  left: 140px;
+}
+
+.home-bg-cloud {
+  position: absolute;
+  left: 0;
+  z-index: -10;
+}
+
+.about-body {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.about-main-img {
+  margin-top: 100px;
+  width: 612px;
+  height: 408px;
+  padding-right: 100px;
+}
+
+.about-col-2-container {
+  padding-left: 20px;
+}
+.about-heading {
+  font-size: 48px;
+}
+
+.about-hr-top {
+  width: 238px;
+  height: 2px;
+  background-color: #a9a9a9;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+}
+
+.about-ht-bottom {
+  width: 156px;
+  height: 7px;
+  background-color: #a9a9a9;
+  border-radius: 4px;
+}
+.about-read {
+  text-decoration: none;
+  color: #2c2c2c;
+}
+.about-paragraph {
+  padding-top: 40px;
+  line-height: 26.55px;
+  font-size: 18px;
+  color: #2c2c2c;
+}
+.about-Engagement-container,
+.about-Communications-container {
+  max-width: 275px;
+  padding-top: 20px;
+  line-height: 26.55px;
+  font-size: 18px;
+  color: #2c2c2c;
+}
+
+.Communications-body-main,
+.Facilitation-body-main {
+  position: relative;
+}
+.Facilitation-bg-img {
+  position: absolute;
+  bottom: -150px;
+  left: 0;
+}
+.Communications-bg-img {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.about-service {
+  display: flex;
+  justify-content: space-between;
+}
+.about-Engagement-heading,
+.about-Communications-heading {
+  font-size: 24px;
+  color: #000;
+  padding-top: 20px;
+}
+
+.about-Communications-paragraph,
+.about-Engagement-paragraph {
+  font-size: 18px;
+  color: #2c2c2c;
+  padding-top: 20px;
+  line-height: 23.6px;
+}
+
+.about-Communications-container {
+  padding-left: 10px;
+}
+.about-Engagement-container {
+  padding-right: 10px;
+}
+.services-body {
+  position: relative;
+  padding-top: 100px;
+}
+.Traning-body-main {
+  position: relative;
+}
+.Traning-bg-img {
+  position: absolute;
+  top: -160px;
+  right: 0;
+}
+.services-bg-img {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.services-heading-container {
+  text-align: center;
+}
+.services-heading {
+  font-size: 48px;
+  color: #000;
+}
+.services-hr-top {
+  width: 238px;
+  height: 2px;
+  margin-inline: auto;
+  background-color: #a9a9a9;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+}
+.services-hr-bottom {
+  width: 62px;
+  height: 7px;
+  background-color: #a9a9a9;
+  border-radius: 4px;
+}
+.team-hr-top {
+  width: 241px;
+  height: 2px;
+  margin-inline: auto;
+  background-color: #a9a9a9;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+}
+.team-hr-bottom {
+  width: 101px;
+  height: 7px;
+  background-color: #a9a9a9;
+  border-radius: 4px;
+}
+.project-hr-top {
+  width: 362px;
+  height: 2px;
+  margin-inline: auto;
+  background-color: #a9a9a9;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+}
+.project-hr-bottom {
+  width: 103px;
+  height: 7px;
+  background-color: #a9a9a9;
+  border-radius: 4px;
+}
+.client-hr-top {
+  width: 301px;
+  height: 2px;
+  margin-inline: auto;
+  background-color: #a9a9a9;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+}
+.client-hr-bottom {
+  width: 104px;
+  height: 7px;
+  background-color: #a9a9a9;
+  border-radius: 4px;
+}
+
+.Service-Engagement-body,
+.Service-Facilitation-body,
+.Service-Traning-body {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  justify-content: center;
+  align-items: start;
+}
+
+.Engagement-body,
+.Facilitation-body,
+.Traning-body {
+  max-width: 530px;
+  display: flex;
+  flex-direction: column;
+  text-align: end;
+  align-items: end;
+  padding-right: 50px !important;
+}
+
+.Services-Engagement-heading,
+.Services-Communications-heading,
+.Services-Facilitation-heading,
+.Services-Consultation-heading,
+.Services-Traning-heading {
+  font-size: 42px;
+  padding-top: 50px;
+  line-height: 49.77px;
+}
+
+.Services-Traning-heading {
+  padding-top: 30px !important;
+}
+
+.Services-Facilitation-heading {
+  padding-top: 80px !important;
+}
+
+.Services-Engagement-paragraph,
+.Services-Communications-paragraph,
+.Services-Facilitation-paragraph,
+.Services-Consultation-paragraph .Services-Traning-paragraph {
+  font-size: 16px;
+  padding-top: 20px;
+  max-width: 523px;
+  line-height: 23.6px;
+}
+.Services-Communications-paragraph {
+  max-width: 478px;
+  padding-left: 5px;
+  padding-right: 35px;
+}
+.Services-Consultation-paragraph {
+  max-width: 454px;
+  padding-left: 5px;
+  padding-right: 45px;
+}
+.Services-Facilitation-paragraph {
+  max-width: 521px;
+  padding-left: 15px;
+}
+.Services-Traning-paragraph {
+  max-width: 520px;
+}
+.Services-Engagement-img-container,
+.Services-Facilitation-img-container,
+.Services-Traning-img-container {
+  padding-left: 100px !important;
+}
+.Services-Communications-img-container,
+.Services-Consultation-img-container {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 50px !important;
+}
+.order-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.order-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse !important;
+}
+
+.Communications-body,
+.Consultation-body {
+  padding-left: 100px !important;
+}
+
+.our-team-body {
+  /* display: flex;
+  justify-content: space-between; */
+  padding-top: 50px;
+}
+.team-member {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.our-team-paragraph {
+  font-size: 24px;
+  padding-top: 20px;
+}
+.team-main-body {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  position: relative;
+}
+.team-bg-img {
+  position: absolute;
+  top: -100px;
+  left: 0;
+}
+.project-main-body,
+.client-main-body {
+  position: relative;
+}
+
+.client-img-container-1,
+.client-img-container-2 {
+  padding-left: 70px !important;
+  padding-right: 70px !important;
+}
+.project-bg-img {
+  position: absolute;
+  top: -200px;
+  right: 0;
+}
+.client-bg-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.project-img-container {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.project-img-1-container {
+  display: flex;
+  justify-content: flex-end;
+}
+.project-img-3 {
+  margin-top: 22px;
+}
+
+.client-img-container-1,
+.client-img-container-2 {
+  padding-top: 50px;
+}
+.client-heading-container {
+  padding-top: 100px;
+}
+.client-img-container-2 {
+  padding-bottom: 100px;
+}
+
+.client-img-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.explore-col {
+  padding-left: 75px !important;
+}
+.contact-col {
+  padding-left: 30px !important;
+}
+
+.footer-body {
+  max-width: 1340px;
+  margin-inline: auto;
+}
+.footer-links-body {
+  background-color: #bfdbff;
+  padding: 50px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.social-heading {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 35.36px;
+  color: #000000;
+  margin-left: 30px;
+}
+.explore-heading,
+.contact-heading,
+.email-heading {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 35.36px;
+  color: #000000;
+}
+.footer-para {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30.94px;
+  color: #2c2c2c;
+}
+.social-links,
+.explore-links,
+.contact-adress {
+  display: flex;
+  flex-direction: column;
+}
+
+.social-link,
+.explore-link {
+  text-decoration: none;
+}
+
+.facebook-icon,
+.linked-icon,
+.google-icon {
+  padding-right: 15px;
+}
+
+.email {
+  align-self: flex-start;
+}
+
+.footer-copy-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0px 20px 0px;
+}
+
+.footer-copy-body span {
+  font-size: 14px;
+  line-height: 16.59px;
+  color: #2c2c2c;
+}
+
+/* responsive Design */
+
+@media only screen and (max-width: 1650px) {
+  .home-rigth-foot {
+    width: 200px;
+    right: 0;
+  }
+
+  .home-vector {
+    width: 550px;
+    left: 130px;
+  }
+
+  .home-bg-cloud {
+    bottom: 0;
+    width: 1200px;
+  }
+  .about-main-img {
+    width: 570px;
+    height: 400px;
+  }
+  .about-Engagement-container,
+  .about-Communications-container {
+    max-width: 230px;
+    padding-top: 20px;
+  }
+  .home-col-2 {
+    padding-left: 50px !important;
+  }
+  .Communications-bg-img,
+  .services-bg-img,
+  .Facilitation-bg-img,
+  .Traning-bg-img,
+  .team-bg-img,
+  .project-bg-img,
+  .client-bg-img {
+    z-index: -1;
+  }
+}
+
+@media only screen and (max-width: 1401px) {
+  .project-img-1 {
+    width: 400px;
+    height: 500px;
+  }
+  .project-img-2,
+  .project-img-3 {
+    width: 350px;
+    height: 240px;
+  }
+  .client-img-body img {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .home-heading {
+    font-size: 45px;
+  }
+  .home-vector {
+    width: 400px;
+    left: 130px;
+  }
+  .about-main-img {
+    width: 500px;
+    height: 350px;
+  }
+  .home-bg-cloud {
+    bottom: 0;
+    width: 900px;
+  }
+  .Services-Engagement-img,
+  .Services-Facilitation-img,
+  .Services-Traning-img,
+  .Services-Communications-img,
+  .Services-Consultation-img {
+    width: 300px;
+  }
+  .Communications-bg-img,
+  .services-bg-img,
+  .Facilitation-bg-img,
+  .Traning-bg-img,
+  .team-bg-img,
+  .project-bg-img,
+  .client-bg-img {
+    width: 100px;
+  }
+  .services-body {
+    padding-top: 50px;
+  }
+  .Service-Engagement-body,
+  .Service-Facilitation-body,
+  .Service-Traning-body {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .Engagement-body,
+  .Facilitation-body,
+  .Traning-body {
+    padding-right: 30px !important;
+  }
+  .Services-Engagement-heading,
+  .Services-Communications-heading,
+  .Services-Facilitation-heading,
+  .Services-Consultation-heading,
+  .Services-Traning-heading {
+    font-size: 30px;
+    padding-top: 20px !important;
+  }
+  .Services-Engagement-img-container,
+  .Services-Facilitation-img-container,
+  .Services-Traning-img-container {
+    padding-left: 50px !important;
+  }
+  .Services-Communications-img-container,
+  .Services-Consultation-img-container {
+    padding-right: 50px !important;
+  }
+  .client-img-body img {
+    width: 100%;
+  }
+  .client-heading-container {
+    padding-top: 50px;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .footer-links-body {
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+    padding: 20px 20px 20px 20px !important;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .footer-links-body {
+    padding: 50px 20px;
+  }
+  .social-heading {
+    margin-left: 0px;
+  }
+  .linked-icon,
+  .google-icon,
+  .facebook-icon {
+    display: none;
+  }
+  .explore-col {
+    padding-left: 12px !important;
+  }
+  .contact-col {
+    padding-left: 12px !important;
+  }
+  .left-top-nav {
+    width: 100px;
+  }
+  .services-hr-top {
+    width: 180px;
+  }
+  .team-hr-top {
+    width: 180px;
+  }
+  .project-hr-top {
+    width: 260px;
+  }
+  .client-hr-top {
+    width: 230px;
+  }
+  .about-heading,
+  .services-heading {
+    font-size: 35px;
+  }
+
+  .rigth-top-nav {
+    display: none;
+  }
+
+  .home-vector {
+    display: none;
+  }
+
+  .home-bg-cloud {
+    display: none;
+  }
+
+  .home-rigth-foot {
+    width: 100px;
+  }
+
+  .home-col-2 {
+    padding-top: 100px !important;
+  }
+  .home-left-foot {
+    width: 100px;
+  }
+
+  .home-body {
+    height: 500px !important;
+  }
+
+  .nav-logo {
+    width: 200px;
+    height: 60px;
+  }
+  .about-main-img {
+    display: none;
+  }
+  .Services-Engagement-img-container,
+  .Services-Facilitation-img-container,
+  .Services-Traning-img-container {
+    display: none;
+  }
+  .Services-Communications-img-container,
+  .Services-Consultation-img-container {
+    display: none;
+  }
+  .Engagement-body,
+  .Facilitation-body,
+  .Traning-body {
+    text-align: start;
+    align-items: start;
+  }
+  .Communications-body,
+  .Consultation-body {
+    padding-left: 10px !important;
+  }
+  .Communications-bg-img,
+  .services-bg-img,
+  .Facilitation-bg-img,
+  .Traning-bg-img,
+  .team-bg-img,
+  .project-bg-img,
+  .client-bg-img {
+    width: 50px;
+  }
+  .project-img-1-container {
+    justify-content: center;
+  }
+  .project-img-2-3-container {
+    padding-top: 20px;
+  }
+  .project-img-2-3-container-col {
+    display: flex;
+    justify-content: center;
+  }
+  .project-img-2,
+  .project-img-3 {
+    width: 400px;
+  }
+  .team-main-body {
+    padding-bottom: 50px;
+  }
+
+  .Services-Engagement-paragraph,
+  .Services-Communications-paragraph,
+  .Services-Facilitation-paragraph,
+  .Services-Consultation-paragraph .Services-Traning-paragraph {
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .home-left-foot {
+    width: 50px;
+  }
+  .about-service {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+  }
+  .Communications-bg-img,
+  .services-bg-img,
+  .Facilitation-bg-img,
+  .Traning-bg-img,
+  .team-bg-img,
+  .project-bg-img,
+  .client-bg-img {
+    display: none;
+  }
+  .about-Engagement-container,
+  .about-Communications-container {
+    max-width: 60%;
+    padding-top: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .Services-Engagement-heading,
+  .Services-Communications-heading,
+  .Services-Facilitation-heading,
+  .Services-Consultation-heading,
+  .Services-Traning-heading {
+    font-size: 30px;
+  }
+  .project-img-2,
+  .project-img-3 {
+    width: 250px;
+    height: 160px;
+  }
+  .project-img-1 {
+    width: 250px;
+    height: 400px;
+  }
+  .about-body {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .services-body {
+    padding-top: 20px;
+  }
+  .Service-Engagement-body,
+  .Service-Facilitation-body,
+  .Service-Traning-body {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px !important;
+  }
+  .Communications-body,
+  .Consultation-body {
+    padding-left: 20px !important;
+  }
+  .client-heading-container {
+    padding-top: 20px;
+  }
+
+  .client-img-container-1,
+  .client-img-container-2 {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .footer-copy-body span {
+    font-size: 12px;
+  }
+  .footer-links-body {
+    padding-left: 20px;
+  }
+  .home-heading {
+    font-size: 35px;
+    line-height: 50px;
+  }
+  .home-peragraph {
+    font-size: 16px;
+    line-height: 27px;
+  }
+
+  .about-paragraph {
+    font-size: 16px !important;
+  }
+  .about-Engagement-paragraph,
+  .about-Communications-paragraph {
+    font-size: 16px !important;
+    padding-top: 5px;
+  }
+  .about-heading,
+  .services-heading {
+    font-size: 25px;
+  }
+  .Services-Engagement-heading,
+  .Services-Communications-heading,
+  .Services-Facilitation-heading,
+  .Services-Consultation-heading,
+  .Services-Traning-heading {
+    font-size: 22px;
+  }
+
+  .about-hr-top {
+    width: 155px;
+  }
+  .services-hr-top {
+    width: 120px;
+  }
+  .team-hr-top {
+    width: 120px;
+  }
+  .project-hr-top {
+    width: 190px;
+  }
+  .client-hr-top {
+    width: 180px;
+  }
+  .about-Engagement-container,
+  .about-Communications-container {
+    max-width: 90%;
+  }
+  .nav-logo {
+    width: 150px;
+    height: 45px;
+  }
+  .home-col-2 {
+    padding-left: 20px !important;
+  }
+  .client-img-container-2 {
+    padding-bottom: 50px !important;
+  }
+}

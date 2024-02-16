@@ -6,7 +6,7 @@ const Projects = () => {
     <div className="project-main-body">
       <img
         className="project-bg-img"
-        src={require("../Assets/imgs/bg img/Asset 8 2.png")}
+        src={require("../imgs/bg img/Asset 8 2.png")}
       />
       <Container>
         <div className="services-heading-container">
@@ -20,7 +20,7 @@ const Projects = () => {
         <Row className="project-img-container">
           <Col className="project-img-1-container">
             <img
-              src={require("../Assets/imgs/TeamAndProjectImg/Our Project_ 1 img 1.png")}
+              src={require("../imgs/TeamAndProjectImg/Our Project_ 1 img 1.png")}
               className="project-img-1"
             />
           </Col>
@@ -28,13 +28,13 @@ const Projects = () => {
             <Row className="project-img-2-3-container">
               <Col className="project-img-2-3-container-col">
                 <img
-                  src={require("../Assets/imgs/TeamAndProjectImg/Our Project _ 2 img 1.png")}
+                  src={require("../imgs/TeamAndProjectImg/Our Project _ 2 img 1.png")}
                   className="project-img-2"
                 />
               </Col>
               <Col className="project-img-2-3-container-col">
                 <img
-                  src={require("../Assets/imgs/TeamAndProjectImg/Our Project_ 3 img 1.png")}
+                  src={require("../imgs/TeamAndProjectImg/Our Project_ 3 img 1.png")}
                   className="project-img-3"
                 />
               </Col>

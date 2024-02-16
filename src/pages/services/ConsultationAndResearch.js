@@ -6,7 +6,7 @@ const ConsultationAndResearch = () => {
       <Row className="Service-Consultation-body order-2 ">
         <Col className="Consultation-body " sm="12" md="12" lg="6">
           <h1 className="Services-Consultation-heading">
-            Consultation and Research
+            CONSULTATION AND RESEARCH
           </h1>
           <p className="Services-Consultation-paragraph">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus
@@ -22,7 +22,7 @@ const ConsultationAndResearch = () => {
         >
           <img
             className="Services-Consultation-img"
-            src={require("../Assets/imgs/servicesImg/Consultation vector 1.png")}
+            src={require("../../imgs/servicesImg/Consultation vector 1.png")}
           />
         </Col>
       </Row>

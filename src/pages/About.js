@@ -4,13 +4,13 @@ import Col from "react-bootstrap/Col";
 
 const About = () => {
   return (
-    <div className="about-body">
+    <div className="about-body" id="About">
       <Container>
         <Row>
           <Col md="12" lg="6">
             <img
               className="about-main-img"
-              src={require("../Assets/imgs/bodyImg/about us 1.png")}
+              src={require("../imgs/bodyImg/about us 1.png")}
             />
           </Col>
           <Col xs md="12" lg="6">
@@ -31,7 +31,7 @@ const About = () => {
                 <div className="about-Engagement-container">
                   <img
                     className="about-Engagement-img"
-                    src={require("../Assets/imgs/bodyImg/Enagagement icon 1.png")}
+                    src={require("../imgs/bodyImg/Enagagement icon 1.png")}
                   />
                   <h1 className="about-Engagement-heading">ENGAGEMENT</h1>
                   <p className="about-Engagement-paragraph">
@@ -43,7 +43,7 @@ const About = () => {
                 <div className="about-Communications-container">
                   <img
                     className="about-Communications-img"
-                    src={require("../Assets/imgs/bodyImg/coomunication icon 1.png")}
+                    src={require("../imgs/bodyImg/coomunication icon 1.png")}
                   />
                   <h1 className="about-Communications-heading">
                     COMMUNICATIONS

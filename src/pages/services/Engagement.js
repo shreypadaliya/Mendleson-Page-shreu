@@ -4,7 +4,7 @@ const Engagement = () => {
     <div className="services-body rubik-regular">
       <img
         className="services-bg-img"
-        src={require("../Assets/imgs/bg img/Asset 5 1.png")}
+        src={require("../../imgs/bg img/Asset 5 1.png")}
       />
       <Container>
         <div className="services-heading-container">
@@ -17,7 +17,7 @@ const Engagement = () => {
       <Container>
         <Row className="Service-Engagement-body">
           <Col className="Engagement-body" sm="12" md="12" lg="6">
-            <h1 className="Services-Engagement-heading">Engagement</h1>
+            <h1 className="Services-Engagement-heading">ENGAGEMENT</h1>
             <p className="Services-Engagement-paragraph">
               We love what we do and are driven by achieving great results for
               our clients. Our awards and impressive client list are testament
@@ -35,7 +35,7 @@ const Engagement = () => {
           >
             <img
               className="Services-Engagement-img"
-              src={require("../Assets/imgs/servicesImg/Engagement vector 1.png")}
+              src={require("../../imgs/servicesImg/Engagement vector 1.png")}
             />
           </Col>
         </Row>

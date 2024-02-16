@@ -8,14 +8,14 @@ function Header() {
       <Navbar expand="lg" className="nav-bar">
         <img
           alt=""
-          src={require("../Assets/imgs/HeaderImg/lefttop.png")}
+          src={require("../imgs/HeaderImg/lefttop.png")}
           width="119"
           height="111"
           className="left-top-nav"
         />
         <img
           alt=""
-          src={require("../Assets/imgs/HeaderImg/rigthtop.png")}
+          src={require("../imgs/HeaderImg/rigthtop.png")}
           width="359"
           height="376"
           className="rigth-top-nav"
@@ -24,7 +24,7 @@ function Header() {
           <Navbar.Brand href="#home">
             <img
               alt=""
-              src={require("../Assets/imgs/HeaderImg/logo.png")}
+              src={require("../imgs/HeaderImg/logo.png")}
               className="nav-logo"
             />
           </Navbar.Brand>
@@ -35,18 +35,24 @@ function Header() {
           >
             <Nav>
               <Nav.Item className="nav-links">
-                <Nav.Link href="/home" className="nav-link-text">
+                <Nav.Link href="#About" className="nav-link-text">
                   About Us
                 </Nav.Link>
               </Nav.Item>
               <Nav.Item className="nav-links">
-                <Nav.Link className="nav-link-text">Services</Nav.Link>
+                <Nav.Link className="nav-link-text" href="#Services">
+                  Services
+                </Nav.Link>
               </Nav.Item>
               <Nav.Item className="nav-links">
-                <Nav.Link className="nav-link-text">Team</Nav.Link>
+                <Nav.Link className="nav-link-text" href="#Team">
+                  Team
+                </Nav.Link>
               </Nav.Item>
               <Nav.Item className="nav-links">
-                <Nav.Link className="nav-link-text">Clients</Nav.Link>
+                <Nav.Link className="nav-link-text" href="#Clients">
+                  Clients
+                </Nav.Link>
               </Nav.Item>
               <Nav.Item className="nav-links">
                 <Nav.Link className="nav-link-text">Contact Us</Nav.Link>

@@ -1,13 +1,12 @@
-import "./styles/App.css";
-import "./styles/AppResponsive.css";
-import Header from "./Components/Header";
-import Home from "./Components/Home";
-import About from "./Components/About";
-import Services from "./Components/Services";
-import Team from "./Components/Team";
-import Projects from "./Components/Projects";
-import Clients from "./Components/Clients";
-import Footer from "./Components/Footer";
+import About from "./pages/About";
+import Clients from "./pages/Clients";
+import Footer from "./pages/Footer";
+import Header from "./pages/Header";
+import Home from "./pages/Home";
+import Services from "./pages/Services";
+import Team from "./pages/Team";
+import Projects from "./pages/Projects";
+import "./assets/styles/App.css";
 
 function App() {
   return (

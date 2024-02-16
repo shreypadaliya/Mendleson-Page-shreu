@@ -3,10 +3,10 @@ import { Col, Container, Row } from "react-bootstrap";
 
 const Team = () => {
   return (
-    <div className="team-main-body">
+    <div className="team-main-body" id="Team">
       <img
         className="team-bg-img"
-        src={require("../Assets/imgs/bg img/Asset 5 1.png")}
+        src={require("../imgs/bg img/Asset 5 1.png")}
       />
       <Container>
         <div className="services-heading-container">
@@ -20,21 +20,21 @@ const Team = () => {
         <Row className="our-team-body rubik-regular">
           <Col sm="12" md="12" lg="4" className="team-member">
             <img
-              src={require("../Assets/imgs/TeamAndProjectImg/Person 1 img 1.png")}
+              src={require("../imgs/TeamAndProjectImg/Person 1 img 1.png")}
               className="out-team-img"
             />
             <p className="our-team-paragraph">Jessica D’suza</p>
           </Col>
           <Col sm="12" md="12" lg="4" className="team-member">
             <img
-              src={require("../Assets/imgs/TeamAndProjectImg/Person 2 img 1.png")}
+              src={require("../imgs/TeamAndProjectImg/Person 2 img 1.png")}
               className="out-team-img"
             />
             <p className="our-team-paragraph">Johny Williams</p>
           </Col>
           <Col sm="12" md="12" lg="4" className="team-member">
             <img
-              src={require("../Assets/imgs/TeamAndProjectImg/Person 3 img 1.png")}
+              src={require("../imgs/TeamAndProjectImg/Person 3 img 1.png")}
               className="out-team-img"
             />
             <p className="our-team-paragraph">Sanya R,</p>

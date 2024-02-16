@@ -1,18 +1,17 @@
-import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 
-const TraningAndMentoring = () => {
+const Facilitation = () => {
   return (
-    <div className="Traning-body-main">
+    <div className="Facilitation-body-main">
       <img
-        className="Traning-bg-img"
-        src={require("../Assets/imgs/bg img/Asset 8 2.png")}
+        className="Facilitation-bg-img"
+        src={require("../../imgs/bg img/Asset 7 1.png")}
       />
       <Container>
-        <Row className="Service-Traning-body">
-          <Col className="Traning-body" sm="12" md="12" lg="6">
-            <h1 className="Services-Traning-heading">Traning & Mentoring</h1>
-            <p className="Services-Traning-paragraph">
+        <Row className="Service-Facilitation-body">
+          <Col className="Facilitation-body" sm="12" md="12" lg="6">
+            <h1 className="Services-Facilitation-heading">FACILITATION</h1>
+            <p className="Services-Facilitation-paragraph">
               We love what we do and are driven by achieving great results for
               our clients. Our awards and impressive client list are testament
               to our high quality approach. We deliver value, creaKvity, results
@@ -22,14 +21,14 @@ const TraningAndMentoring = () => {
             </p>
           </Col>
           <Col
-            className="Services-Traning-img-container"
+            className="Services-Facilitation-img-container"
             sm="12"
             md="12"
             lg="6"
           >
             <img
-              className="Services-Traning-img"
-              src={require("../Assets/imgs/servicesImg/Training and vector 1.png")}
+              className="Services-Facilitation-img"
+              src={require("../../imgs/servicesImg/facilation vector 1.png")}
             />
           </Col>
         </Row>
@@ -38,4 +37,4 @@ const TraningAndMentoring = () => {
   );
 };
 
-export default TraningAndMentoring;
+export default Facilitation;

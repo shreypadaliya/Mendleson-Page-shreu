@@ -6,12 +6,12 @@ const Communications = () => {
     <div className="Communications-body-main">
       <img
         className="Communications-bg-img"
-        src={require("../Assets/imgs/bg img/Asset 6 1.png")}
+        src={require("../../imgs/bg img/Asset 6 1.png")}
       />
       <Container>
         <Row className="Service-Communications-body order-2">
           <Col className="Communications-body" sm="12" md="12" lg="6">
-            <h1 className="Services-Communications-heading">Communications</h1>
+            <h1 className="Services-Communications-heading">COMMUNICATIONS</h1>
             <p className="Services-Communications-paragraph">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus
               quam quis egestas orci. Scelerisque eu, vitae sapien, pellentesque
@@ -26,7 +26,7 @@ const Communications = () => {
           >
             <img
               className="Services-Communications-img"
-              src={require("../Assets/imgs/servicesImg/Coominucation vector 1.png")}
+              src={require("../../imgs/servicesImg/Coominucation vector 1.png")}
             />
           </Col>
         </Row>
